@@ -1,0 +1,74 @@
+{
+ "12.5_1000": {
+  "fates": {
+   "extracted": 4,
+   "wall": 36,
+   "back": 0
+  },
+  "t_generate_s": 3.44,
+  "tag": "final"
+ },
+ "17.5_2000": {
+  "fates": {
+   "extracted": 7,
+   "wall": 33,
+   "back": 0
+  },
+  "t_generate_s": 3.24,
+  "tag": "final"
+ },
+ "22.5_3000": {
+  "fates": {
+   "extracted": 9,
+   "wall": 31,
+   "back": 0
+  },
+  "t_generate_s": 3.32,
+  "tag": "final"
+ },
+ "27.5_4000": {
+  "fates": {
+   "extracted": 12,
+   "wall": 28,
+   "back": 0
+  },
+  "t_generate_s": 3.19,
+  "tag": "final"
+ },
+ "42.5_4500": {
+  "fates": {
+   "extracted": 13,
+   "wall": 23,
+   "back": 4
+  },
+  "t_generate_s": 2.93,
+  "tag": "final"
+ },
+ "47.5_2500": {
+  "fates": {
+   "extracted": 6,
+   "wall": 18,
+   "back": 16
+  },
+  "t_generate_s": 2.87,
+  "tag": "final"
+ },
+ "35_3000": {
+  "fates": {
+   "extracted": 11,
+   "wall": 25,
+   "back": 4
+  },
+  "t_generate_s": 3.37,
+  "tag": "val"
+ },
+ "15_2000": {
+  "fates": {
+   "extracted": 6,
+   "wall": 34,
+   "back": 0
+  },
+  "t_generate_s": 3.1,
+  "tag": "val"
+ }
+}
