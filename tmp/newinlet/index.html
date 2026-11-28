@@ -1,0 +1,19 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noindex,nofollow"><title>New back plate</title>
+<style>body{font-family:system-ui,sans-serif;max-width:1000px;margin:16px auto;padding:0 16px;color:#222;background:#fff}
+img{width:100%;height:auto}td,th{border:1px solid #ccc;padding:3px 8px;text-align:left}table{border-collapse:collapse}</style></head><body>
+<h3>New back plate (temporary page, 2026-11-13)</h3>
+<p>Front plate and bore as in the earlier 2D scans; the back plate is replaced by the one in
+<code>Neutralizing_cell_new_inlet.step</code> (sizes read from the file, mm). x = 0 is the inner face of the front plate.</p>
+<img src="newinlet_section.png" alt="2D section of the cell with the new back plate" width=1080 height=413>
+<table><tr><th>New back plate</th><th>mm</th></tr>
+<tr><td>Plate</td><td>6.35 thick (x 45.47–51.82)</td></tr>
+<tr><td>Recess on the cell side</td><td>Ø17.78, 3.81 deep</td></tr>
+<tr><td>Centre insert</td><td>Ø10.67 outside, tip 0.38 short of the plate face</td></tr>
+<tr><td>Outlet aperture (in the insert)</td><td>Ø4.572 × 2.54, then Ø9.144 out through the plate</td></tr>
+<tr><td>Gas gap</td><td>ring between Ø10.67 and Ø17.78, 3.43 long</td></tr>
+<tr><td>Gas hole</td><td>one Ø1.524 hole, 7.11 off axis, into the gap floor</td></tr></table>
+<h4>Gas inlet as a ring in 2D</h4>
+<p>2D treats the cell as a solid of revolution, so the one gas hole has to become a ring. Proposed: a ring at the floor of the gas gap, with the hole's width (green: r 6.35–7.87, x 49.28), blowing toward the cell.
+The flow (SCCM) is set directly, so the ring's size does not change how much gas comes in. The gap spreads the gas around the axis before it reaches the cell, so the ring should be a fair stand-in for the single hole. Other options: the whole gap floor (r 5.33–8.89), or a ring with the hole's area (0.04 mm wide, too thin for the grid).</p>
+</body></html>
